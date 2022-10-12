@@ -69,8 +69,6 @@ GEM
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     bindex (0.8.1)
-    bootsnap (1.13.0)
-      msgpack (~> 1.2)
     builder (3.2.4)
     capybara (3.37.1)
       addressable
@@ -105,7 +103,6 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    msgpack (1.6.0)
     net-imap (0.3.1)
       net-protocol
     net-pop (0.1.2)
@@ -199,7 +196,6 @@ PLATFORMS
   arm64-darwin-20
 
 DEPENDENCIES
-  bootsnap
   capybara
   importmap-rails
   jbuilder
